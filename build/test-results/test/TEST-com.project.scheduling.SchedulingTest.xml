@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.scheduling.SchedulingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-03-25T12:12:44" hostname="MPGQ37-ZB14G8" time="0.802">
+  <properties/>
+  <testcase name="testMeetingNotAvailable()" classname="com.project.scheduling.SchedulingTest" time="0.782"/>
+  <testcase name="testSuggestMeetingTime()" classname="com.project.scheduling.SchedulingTest" time="0.003"/>
+  <testcase name="testGetUserMeetings()" classname="com.project.scheduling.SchedulingTest" time="0.004"/>
+  <testcase name="testCreateUser()" classname="com.project.scheduling.SchedulingTest" time="0.003"/>
+  <testcase name="testUniqueEmails()" classname="com.project.scheduling.SchedulingTest" time="0.003"/>
+  <system-out><![CDATA[13:12:42.870 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.project.scheduling.SchedulingTest]: SchedulingTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:12:42.985 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.project.scheduling.SchedulingApplication for test class com.project.scheduling.SchedulingTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-03-25T13:12:43.340+01:00  INFO 23188 --- [scheduling] [    Test worker] com.project.scheduling.SchedulingTest    : Starting SchedulingTest using Java 21.0.1 with PID 23188 (started by MPGQ37 in C:\Users\MPGQ37\Downloads\scheduling\scheduling)
+2024-03-25T13:12:43.342+01:00  INFO 23188 --- [scheduling] [    Test worker] com.project.scheduling.SchedulingTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-25T13:12:44.361+01:00  INFO 23188 --- [scheduling] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-25T13:12:44.362+01:00  INFO 23188 --- [scheduling] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-25T13:12:44.364+01:00  INFO 23188 --- [scheduling] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-25T13:12:44.401+01:00  INFO 23188 --- [scheduling] [    Test worker] com.project.scheduling.SchedulingTest    : Started SchedulingTest in 1.285 seconds (process running for 2.518)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\MPGQ37\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
